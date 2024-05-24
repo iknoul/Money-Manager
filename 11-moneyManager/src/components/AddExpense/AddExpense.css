@@ -1,0 +1,26 @@
+.addCategory{
+    display: flex;
+    gap: 15px !important;
+    width: fit-content;
+    margin: 5px;
+}
+.aEmain{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 1;
+    backdrop-filter:blur(5px);
+    background-color: rgb(245, 245, 245);
+    /* border: 2px solid rgb(180, 180, 212); */
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 197);
+    width: fit-content;
+    padding: 1% 2% 1% 1%;
+}
+.botButton{
+    display: flex;
+    justify-content: space-evenly;
+
+}

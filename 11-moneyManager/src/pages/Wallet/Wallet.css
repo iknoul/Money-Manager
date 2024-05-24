@@ -1,0 +1,68 @@
+.leftW{
+    width: 41%;
+    height: 93%;
+    box-shadow: 1px 1px 2px rgb(213, 90, 88);
+    border-radius: 9px;
+    position: relative;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.leftWContents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.leftW .budgets{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 2% ;
+    gap: 10%;
+    box-shadow: 1px 1px 1px rgb(213, 90, 88);
+    border: 1px solid rgb(213, 90, 88);
+    border-radius: 5px;
+}
+.leftW .budgets p{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.leftW .budgets h4{
+    width: 30%;
+}
+.rightW{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+    border-radius: 9px;
+
+}
+.rightW .circleW{
+    display: flex;
+    position: relative;
+    border-radius: 9px;
+    box-shadow: 1px 1px 2px rgb(213, 90, 88);
+}
+.rightW .circleW .labels-circle{
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    width: 20%;
+    padding: 1%;
+    border-radius: 5px;
+    /* border: 1px solid rgb(240, 141, 141); */
+    box-shadow: 1px 1px 1px 1px rgb(213, 90, 88);
+}
+.rightW .circle{
+    position: relative;
+    padding-left: 27%;
+    width: 60%;
+    height: 100%;
+}

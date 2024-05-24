@@ -1,0 +1,247 @@
+
+.leftD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    height: 100%;
+    gap:2%;
+}
+.rightD{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    border:2px solid black;
+    border-radius: 9px;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+.leftD .account{
+    width: 100%;
+    height: 45%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 9px;
+}
+.leftD .addD{
+    width: 98%;
+    height: 55%;
+    display: flex;
+    position: relative;
+    padding: 1%;
+    justify-content: center;
+    /* border: 2px solid black; */
+    border-radius: 9px;
+}
+.leftD .addD .btAdd{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+/* .leftD .addD .btAdd :hover{
+    background-color: aliceblue;
+} */
+@keyframes myanime {
+    0%{
+        top: 10px;
+        opacity: 1;
+    }
+    60%{
+        top: 60px;
+        opacity: .6;
+        /* margin: 600px;
+        transform: rotate(50deg); */
+    }
+    100%{
+        top: 80px;
+        opacity: .1;
+    }
+}
+@keyframes myanime1 {
+    0%{
+        left: 35%;
+        top: 10%;
+        opacity: 0;
+    }
+    20%{
+        left: 35%;
+        top: 10%;
+        opacity: 0.1;
+        transform: rotate(5deg); 
+    }
+    40%{
+        left: 39%;
+        top: 40px;
+        opacity: .8;
+    }
+    60%{
+        left: 50%;
+        top: 70px;
+        opacity: 1;
+        /* margin: 600px;*/
+        transform: rotate(40deg); 
+    }
+    100%{
+        left: 53%;
+        top: 110px;
+        opacity: 1;
+    }
+}
+@keyframes myanime2 {
+    0%{
+        left: 37%;
+        top: 10%;
+        opacity: 0;
+    }
+    50%{
+        left: 37%;
+        top: 10%;
+        opacity: 0;
+    }
+    57%{
+        left: 38%;
+        top: 16%;
+        opacity: 0.5;
+        transform: rotate(10deg); 
+
+    }
+    64%{
+        left: 37%;
+        top: 22%;
+        opacity: 1;
+        transform: rotate(-10deg); 
+
+    }
+    71%{
+        left: 38%;
+        top: 28%;
+        opacity: 1;
+        /* margin: 600px;*/
+        transform: rotate(20deg); 
+    }
+    78%{
+        left: 37%;
+        top: 36%;
+        opacity: 1;
+        /* margin: 600px;*/
+        transform: rotate(20deg); 
+    }
+    85%{
+        left: 38%;
+        top: 39%;
+        opacity: 1;
+        transform: rotate(-20deg); 
+    }
+    100%{
+        left: 40%;
+        top: 40%;
+        opacity: 1;
+        transform: rotate(0deg); 
+    }
+}
+.leftD .addD #mA1{
+    opacity: 0;
+    left: 47%;
+    color: rgb(223, 170, 56);
+    position: absolute;
+    animation-name: myanime;
+    animation-duration: 1s;
+    animation-iteration-count:2;
+    animation-delay: 0s;
+}
+.leftD .addD #mA2{
+    opacity: 0;
+    left: 50%;
+    color: rgb(223, 170, 56);
+    position: absolute;
+    animation-name: myanime;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+.leftD .addD #mA3{
+    opacity: 0;
+    left: 45%;
+    color: rgb(223, 170, 56);
+    position: absolute;
+    animation-name: myanime;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.leftD .addD #GT1{
+    opacity: .3;
+    top: 45%;
+    left: 52%;
+    color: rgb(223, 170, 56);
+    position: absolute;
+    animation-name: myanime1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+.leftD .addD #TM1{
+    opacity: .3;
+    top: 40%;
+    left: 40%;
+    color: rgb(223, 170, 56);
+    position: absolute;
+    animation-name: myanime2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+.history-title{
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    padding: 3px;
+    width: 100%;
+    height: 30px;
+    color: rgb(76, 76, 76);
+}
+.history-item{
+    width: 92%;
+    margin: 3%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 5px;
+    align-items: center;
+    padding: 1%;
+    border: 1px solid rgb(193, 178, 178);
+    border-radius: 5px;
+    /* color: rgb(252, 186, 186); */
+
+    
+}
+.rightD .nothing{
+    position: absolute;
+    top: 100px;
+}
+.title-history-item{
+    /* padding-left: 40%; */
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+.history-item-bottom{
+    display: flex;
+}
+.history-item-bottom2{
+    padding-left: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
